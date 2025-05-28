@@ -8,11 +8,10 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
-  <header>
+<header>
     <nav>
       <a class="navbar-brand" href="index.html">OUT AND ABOUT</a>
       <button class="mobile-menu-btn" aria-label="Toggle menu">
@@ -28,6 +27,8 @@
       </ul>
     </nav>
   </header>
+
+ 
 
   <!-- Hero Section -->
   <section class="hero">
@@ -94,10 +95,13 @@
         <p>&copy; 2025 Out And About - Gaborone. All rights reserved.</p>
     </div>
 </footer>
-<script>
-    document.querySelector('.menu-toggle').addEventListener('click', function() {
-        document.querySelector('nav ul').classList.toggle('active');
+<script.js>document.addEventListener("DOMContentLoaded", function() {
+    const menuButton = document.querySelector(".mobile-menu-btn");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuButton.addEventListener("click", function() {
+        navLinks.classList.toggle("active");
     });
-</script>
+}); </script.js>
 </body>
 </html>
