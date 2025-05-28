@@ -8,9 +8,10 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <!-- Font Awesome for icons -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+
 <header>
     <nav>
       <a class="navbar-brand" href="index.html">OUT AND ABOUT</a>
@@ -22,28 +23,26 @@
         <li><a href="discover.html">Discover</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="reviews.html">Reviews</a></li>
-        <li><a href="about us.html">About us</a></li>
+        <li><a href="about us.html">About Us</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-  </header>
+</header>
 
- 
-
-  <!-- Hero Section -->
-  <section class="hero">
+<!-- Hero Section -->
+<section class="hero">
     <div class="hero-overlay">
       <h1>Explore. Unwind. Discover Gaborone on a Student Budget.</h1>
       <p>Your ultimate guide to hidden gems, cozy study spots, and breathtaking nature escapes.</p>
       <a href="discover.html" class="hero-btn">Start Exploring</a>
     </div>
-  </section>
+</section>
 
-  <!-- Content Sections -->
-  <section class="content-section">
+<!-- Content Sections -->
+<section class="content-section">
     <div class="container">
       <div class="content-card food">
-        <img src="Kreo cafe.png" alt="Delicious food in Gaborone">
+        <img src="Kreo-cafe.png" alt="Delicious food in Gaborone">
         <div class="card-text">
           <h2>Gaborone's Best Eats</h2>
           <p>Discover the tastiest spots in town, from cozy cafés to vibrant street food markets.</p>
@@ -52,7 +51,7 @@
       </div>
 
       <div class="content-card reverse study">
-        <img src="Study cafe.png" alt="A peaceful study café">
+        <img src="Study-cafe.png" alt="A peaceful study café">
         <div class="card-text">
           <h2>Cozy Study Cafés</h2>
           <p>Find the perfect study-friendly cafés with great coffee and a peaceful atmosphere.</p>
@@ -70,7 +69,7 @@
       </div>
 
       <div class="content-card reverse nature">
-        <img src="game reserve.png" alt="Beautiful nature reserves">
+        <img src="game-reserve.png" alt="Beautiful nature reserves">
         <div class="card-text">
           <h2>Nature Hotspots</h2>
           <p>Escape into nature with breathtaking hiking trails and serene reserves.</p>
@@ -78,7 +77,8 @@
         </div>
       </div>
     </div>
-  </section>
+</section>
+
 <footer class="site-footer">
     <div class="footer-content">
         <div class="social-links">
@@ -95,13 +95,21 @@
         <p>&copy; 2025 Out And About - Gaborone. All rights reserved.</p>
     </div>
 </footer>
-<script>document.addEventListener("DOMContentLoaded", function() {
+
+<!-- JavaScript for Toggle Menu -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
     const menuButton = document.querySelector(".mobile-menu-btn");
     const navLinks = document.querySelector(".nav-links");
 
     menuButton.addEventListener("click", function() {
         navLinks.classList.toggle("active");
     });
-}); </script>
+});
+</script>
+
+<script src="script.js"></script>
+
 </body>
 </html>
+         
