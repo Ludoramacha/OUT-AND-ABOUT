@@ -165,6 +165,16 @@
     this.reset(); // Clears the textarea after submission
   });
 </script>
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+    const menuButton = document.querySelector(".mobile-menu-btn");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuButton.addEventListener("click", function() {
+        navLinks.classList.toggle("active");
+    });
+});
+</script>
 <script src="script.js"></script>
 </body>
 </html>
