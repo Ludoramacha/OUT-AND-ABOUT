@@ -652,12 +652,28 @@ body {
 }
 @media (max-width: 480px) {
     nav ul {
+        display: none; /* Hide menu initially */
         flex-direction: column;
         text-align: center;
     }
 
+    nav ul.active {
+        display: block; /* Show menu when toggled */
+    }
+
     nav ul li {
         margin: 5px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        width: 100%;
     }
 
     .hero {
