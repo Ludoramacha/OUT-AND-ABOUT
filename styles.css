@@ -698,4 +698,48 @@ body {
         max-width: 100%;
         height: auto;
     }
+  /* === Updated Review Form Styling for Desktop/Laptop Centering === */
+
+.review-form-wrapper {
+    max-width: 600px;   /* Controls form width */
+    margin: 0 auto;     /* Center horizontally */
+    padding: 20px;
+    text-align: center; /* Center button inside */
+}
+
+.review-form-wrapper textarea {
+    width: 100%;        /* Full width inside wrapper */
+    max-width: 100%;    /* Prevent overflow */
+    min-height: 120px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+.review-form-wrapper textarea:focus {
+    border-color: #ff6600;
+    outline: none;
+}
+
+.review-form-wrapper button {
+    width: 100%;        /* Full width button */
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.review-form-wrapper button:hover,
+.review-form-wrapper button:focus {
+    background-color: #e65900;
+    outline: none;
+}
 }
